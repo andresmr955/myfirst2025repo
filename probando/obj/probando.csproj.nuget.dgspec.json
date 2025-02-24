@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/myfirst2025repo/probando/probando.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Desktop\\PLATZI2025\\GIT\\miPrimerProyecto\\repoNuevogit\\myfirst2025repo\\probando\\probando.csproj": {}
   },
   "projects": {
-    "/workspaces/myfirst2025repo/probando/probando.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Desktop\\PLATZI2025\\GIT\\miPrimerProyecto\\repoNuevogit\\myfirst2025repo\\probando\\probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/myfirst2025repo/probando/probando.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\PLATZI2025\\GIT\\miPrimerProyecto\\repoNuevogit\\myfirst2025repo\\probando\\probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/myfirst2025repo/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/myfirst2025repo/probando/obj/",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\PLATZI2025\\GIT\\miPrimerProyecto\\repoNuevogit\\myfirst2025repo\\probando\\probando.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Desktop\\PLATZI2025\\GIT\\miPrimerProyecto\\repoNuevogit\\myfirst2025repo\\probando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,11 +37,18 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,12 +60,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
